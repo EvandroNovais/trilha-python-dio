@@ -1,5 +1,7 @@
-frutas = ["laranja", "maca", "uva"]
+frutas = ["laranja", "maca", "uva", "pera"]
 print(frutas)
+print(frutas[1])
+print(frutas[3])
 
 frutas = []
 print(frutas)
