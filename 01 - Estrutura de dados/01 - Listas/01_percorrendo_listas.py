@@ -6,3 +6,11 @@ print(lista[1:3]) # inicio:fim
 print(lista[0:3:2])# inicio:fim:step
 print(lista[::]) # Padrão (Imprime tudo)
 print(lista[::-1]) # Imprime tudo ao contrário
+
+carros = ["gol", "celta", "palio"]
+
+for carro in carros:
+    print(carro)
+
+for indice, carro in enumerate(carros):
+    print(f"{indice}: {carro}")
