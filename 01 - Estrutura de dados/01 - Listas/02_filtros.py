@@ -17,3 +17,8 @@ for numero in numeros:
     quadrado.append(numero ** 2)
 
 print(quadrado)
+
+
+quadrado = [numero ** 2 for numero in numeros] #Compreencion
+
+print(quadrado)
