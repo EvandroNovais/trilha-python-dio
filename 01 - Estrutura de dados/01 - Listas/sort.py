@@ -1,7 +1,4 @@
 # Ordena a lista
-from trace import Trace
-
-
 linguagens = ["python", "js", "c", "java", "csharp"]
 linguagens.sort()
 
